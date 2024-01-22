@@ -14,6 +14,8 @@ ol {
   background: #fff;
   display: flex;
   flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /* #region Main content */
@@ -25,7 +27,7 @@ ol {
 
 /* #endregion */
 
-/* #region Contacts */
+/* #region Sidebar */
 
 .sidebar {
   background: #e0ebfe;
@@ -243,5 +245,52 @@ ol {
 
 .work-experience-container {
   margin-bottom: 12px;
+}
+
+.work-experience {
+  margin-bottom: 40px;
+}
+/* #endregion */
+
+/* #region Education */
+
+.education-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.name-intstitution {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.education-name {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.education-date {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.education-date-separator {
+  color: #000;
 }
 /* #endregion */
